@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterApp.mc" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterApp.mc" lineNum="6" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterApp.mc" lineNum="10" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterApp.mc" lineNum="14" pc="268435484" symbol="onStop"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterApp.mc" lineNum="18" pc="268435489" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterApp.mc" lineNum="19" pc="268435493" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="5" pc="268435561" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="6" pc="268435565" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="10" pc="268435584" symbol="onLayout"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="11" pc="268435588" symbol="onLayout"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="17" pc="268435626" symbol="onShow"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="21" pc="268435631" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="23" pc="268435635" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterView.mc" lineNum="29" pc="268435656" symbol="onHide"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="14" pc="268435661" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="15" pc="268435665" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="16" pc="268435683" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="19" pc="268435696" symbol="onTap"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="20" pc="268435700" symbol="onTap"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="21" pc="268435721" symbol="onTap"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="23" pc="268435760" symbol="onTap"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="24" pc="268435800" symbol="onTap"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="27" pc="268435861" symbol="initSession"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="28" pc="268435865" symbol="initSession"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="29" pc="268435905" symbol="initSession"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="30" pc="268435965" symbol="initSession"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="31" pc="268435986" symbol="initSession"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="36" pc="268436026" symbol="setApi"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="37" pc="268436030" symbol="setApi"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="38" pc="268436051" symbol="setApi"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="43" pc="268436128" symbol="setGps"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="44" pc="268436132" symbol="setGps"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="45" pc="268436153" symbol="setGps"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="46" pc="268436170" symbol="setGps"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="47" pc="268436177" symbol="setGps"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="48" pc="268436196" symbol="setGps"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="61" pc="268436301" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="62" pc="268436305" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="63" pc="268436316" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="64" pc="268436326" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="65" pc="268436350" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="66" pc="268436357" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="67" pc="268436384" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="68" pc="268436406" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="69" pc="268436426" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="70" pc="268436442" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="72" pc="268436465" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="73" pc="268436476" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="77" pc="268436494" symbol="checkStatusCallback"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="81" pc="268436511" symbol="checkStatus"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="82" pc="268436515" symbol="checkStatus"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="83" pc="268436536" symbol="checkStatus"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="90" pc="268436681" symbol="executeCommand"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="91" pc="268436685" symbol="executeCommand"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="98" pc="268436826" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="99" pc="268436830" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="100" pc="268436842" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="101" pc="268436853" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="102" pc="268436869" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="103" pc="268436883" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="105" pc="268436898" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="106" pc="268436931" symbol="onSessionStart"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="110" pc="268436956" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="111" pc="268436960" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="112" pc="268436971" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="113" pc="268436995" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="114" pc="268437005" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="115" pc="268437015" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="116" pc="268437026" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="119" pc="268437041" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="123" pc="268437058" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="124" pc="268437070" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="125" pc="268437103" symbol="onTakePicture"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="130" pc="268437128" symbol="debugReturn"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="131" pc="268437132" symbol="debugReturn"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="132" pc="268437144" symbol="debugReturn"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="133" pc="268437155" symbol="debugReturn"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="136" pc="268437182" symbol="debugReturn"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="137" pc="268437215" symbol="debugReturn"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="141" pc="268437240" symbol="clearProgressBar"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="142" pc="268437244" symbol="clearProgressBar"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="143" pc="268437257" symbol="clearProgressBar"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="144" pc="268437266" symbol="clearProgressBar"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="145" pc="268437266" symbol="clearProgressBar"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="148" pc="268437319" symbol="clearProgressBar"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="155" pc="268437336" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="156" pc="268437340" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="157" pc="268437350" symbol="initialize"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="160" pc="268437373" symbol="onBack"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="161" pc="268437377" symbol="onBack"/>
+<entry filename="C:\\Users\\Natalie\\eclipse-workspace\\RicohShutter\\.\\source\\RicohShutterInputDelegate.mc" lineNum="162" pc="268437392" symbol="onBack"/>
+<entry filename="Rez" lineNum="19" pc="268437409" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268437421" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268437552" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268437604" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268437656" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="15" method="true" symbol="initSession"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry id="21" method="true" symbol="onSessionStart"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="27" symbol="status_path"/>
+<entry field="true" id="14" symbol="progressBar"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="16" method="true" symbol="setApi"/>
+<entry id="24" method="true" symbol="clearProgressBar"/>
+<entry id="12" object="true" symbol="RicohShutterInputDelegate"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="32" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="10" object="true" symbol="RicohShutterApp"/>
+<entry id="23" method="true" symbol="debugReturn"/>
+<entry id="17" method="true" symbol="setGps"/>
+<entry id="19" method="true" symbol="checkStatus"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="33" symbol="AppName"/>
+<entry field="true" id="30" symbol="id_camera"/>
+<entry id="8389594" symbol="headers"/>
+<entry field="true" id="31" symbol="LauncherIcon"/>
+<entry field="true" id="34" symbol="parent"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry field="true" id="26" symbol="execute_path"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="20" method="true" symbol="executeCommand"/>
+<entry id="22" method="true" symbol="onTakePicture"/>
+<entry field="true" id="25" symbol="ip_address"/>
+<entry id="29" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="11" object="true" symbol="RicohShutterView"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="18" method="true" symbol="checkStatusCallback"/>
+<entry id="13" object="true" symbol="RicohShutterProgressBarDelegate"/>
+<entry id="28" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435626" name="dc" stackId="1" startPc="268435584"/>
+<entry endPc="268435656" name="dc" stackId="1" startPc="268435631"/>
+<entry endPc="268435861" name="clickEvent" stackId="1" startPc="268435696"/>
+<entry endPc="268436128" name="sessionId" stackId="1" startPc="268436026"/>
+<entry endPc="268436297" name="location" stackId="2" startPc="268436177"/>
+<entry endPc="268436300" name="gpsInfo" stackId="1" startPc="268436132"/>
+<entry endPc="268436491" name="completion" stackId="4" startPc="268436316"/>
+<entry endPc="268436491" name="state" stackId="3" startPc="268436316"/>
+<entry endPc="268436511" name="responseCode" stackId="1" startPc="268436301"/>
+<entry endPc="268436511" name="data" stackId="2" startPc="268436301"/>
+<entry endPc="268436681" name="id" stackId="1" startPc="268436511"/>
+<entry endPc="268436826" name="parameters" stackId="2" startPc="268436681"/>
+<entry endPc="268436826" name="command" stackId="1" startPc="268436681"/>
+<entry endPc="268436826" name="callback" stackId="3" startPc="268436681"/>
+<entry endPc="268436895" name="sessionId" stackId="3" startPc="268436853"/>
+<entry endPc="268436956" name="responseCode" stackId="1" startPc="268436826"/>
+<entry endPc="268436956" name="data" stackId="2" startPc="268436826"/>
+<entry endPc="268437055" name="state" stackId="4" startPc="268436971"/>
+<entry endPc="268437055" name="id" stackId="3" startPc="268436971"/>
+<entry endPc="268437128" name="responseCode" stackId="1" startPc="268436956"/>
+<entry endPc="268437128" name="data" stackId="2" startPc="268436956"/>
+<entry endPc="268437240" name="responseCode" stackId="1" startPc="268437128"/>
+<entry endPc="268437240" name="data" stackId="2" startPc="268437128"/>
+<entry endPc="268437373" name="parent" stackId="1" startPc="268437336"/>
+<entry endPc="268437673" name="rez_cmp_local_bitmap_id_camera" stackId="2" startPc="268437421"/>
+<entry endPc="268437674" name="dc" stackId="1" startPc="268437409"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="RicohShutterApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="RicohShutterApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="RicohShutterApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="RicohShutterApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="RicohShutterView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="RicohShutterView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="RicohShutterView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="RicohShutterView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="RicohShutterView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="RicohShutterInputDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTap" parent="RicohShutterInputDelegate">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initSession" parent="RicohShutterInputDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setApi" parent="RicohShutterInputDelegate">
+<param id="sessionId"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setGps" parent="RicohShutterInputDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="checkStatusCallback" parent="RicohShutterInputDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="checkStatus" parent="RicohShutterInputDelegate">
+<param id="id"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="executeCommand" parent="RicohShutterInputDelegate">
+<param id="command"/>
+<param id="parameters"/>
+<param id="callback"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSessionStart" parent="RicohShutterInputDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTakePicture" parent="RicohShutterInputDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="debugReturn" parent="RicohShutterInputDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="clearProgressBar" parent="RicohShutterInputDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="RicohShutterProgressBarDelegate">
+<param id="parent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="RicohShutterProgressBarDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="95" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="198" parentId="globals" symbolId="RicohShutterInputDelegate" type="class"/>
+<dataEntry offset="396" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="475" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="522" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="553" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="584" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="615" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="654" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="693" parentId="globals" symbolId="RicohShutterProgressBarDelegate" type="class"/>
+<dataEntry offset="756" parentId="globals" symbolId="RicohShutterView" type="class"/>
+<dataEntry offset="835" parentId="globals" symbolId="RicohShutterApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
