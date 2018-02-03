@@ -7,15 +7,147 @@ using Toybox.Position as Pos;
 class RicohShutterInputDelegate extends Ui.InputDelegate {
 	static var ip_address = "http://192.168.1.1:80";
 	static var execute_path = "osc/commands/execute";
-	static var status_path = "/osc/commands/status";
+	static var status_path = "osc/commands/status";
+	static var state_path = "osc/state";
 	
 	var progressBar;
+	var notifyError;
 
-	function initialize() {
+	function initialize(handler) {
 		InputDelegate.initialize();
-		initSession();
+		notifyError = handler;
+		inProgress("Connecting...");
+		executeCommand("camera.startSession", {}, method(:startSessionCallback));
 	}
 	
+	
+	function startSessionCallback(responseCode, data) {
+		debug("startSession", responseCode, data);
+		if (responseCode == 200) {
+			if (data["state"] != null && data["state"].equals("done")) {
+				var gpsInfo = Pos.getInfo();
+				var lat = 65535;
+				var lng = 65535;
+				if (gpsInfo != null) {
+					var location = gpsInfo.position.toDegrees();
+					lat = location[0];
+					if (lat > 90 || lat < 90) {
+						lat = 0.0;
+					}
+					lng = location[1];
+				}
+				executeCommand("camera.setOptions", 
+				{
+					"sessionId" => data["results"]["sessionId"],
+					"options" => {
+						"clientVersion" => 2
+					}
+				},
+				method(:setInitialOptionsCallback));
+			}
+			else {
+				progressDone();
+			}
+		}
+		else {
+			progressDone();
+			notifyError.invoke();
+		}
+	}
+	
+	function setInitialOptionsCallback(responseCode, data) {
+		debug("setInitialOptions", responseCode, data);
+		if (responseCode == 200) {
+			if (data["state"] != null && !data["state"].equals("done")) {
+				getState(method(:getStateCallback));
+			}
+			else {
+				progressDone();
+			}
+		}
+		else {
+			notifyError.invoke();
+			progressDone();
+		}
+		
+	}
+	
+	function getStateCallback(responseCode, data) {
+		debug(getStateCallback(responseCode, data));
+		if (responseCode != 200) {
+			notifyError.invoke();
+		}
+		progressDone();
+	}
+	
+	function onTap(clickEvent) {
+		executeCommand("camera.takePicture", {}, method(:takePictureCallback));
+		
+		inProgress("Capturing...");
+	}
+	
+	function takePictureCallback(responseCode, data) {
+		debug("takePicture", responseCode, data);
+		if (responseCode == 200) {
+			if (data["state"].equals("done")) {
+				progressDone();
+				
+			}
+			else {
+				checkStatus(data["id"], method(:takePictureCallback));
+			}
+		}
+		else {
+			notifyError.invoke();
+			progressDone();
+		}
+	}
+	
+	function getState(callback) {
+		Communications.makeWebRequest(ip_address + "/" + state_path,
+			{},
+			{ :method => Communications.HTTP_REQUEST_METHOD_POST, :headers => 
+					{ "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON, "Accept" => "application/json" }
+			}, callback);
+	}
+	
+	function checkStatus(id, callback) {
+		Communications.makeWebRequest(ip_address + "/" + status_path,
+			{"id" => id.toString()},
+			{ :method => Communications.HTTP_REQUEST_METHOD_POST, :headers => 
+					{ "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON, "Accept" => "application/json" }
+			}, callback);
+	}
+
+	function executeCommand(command, parameters, callback) {
+		Communications.makeWebRequest(ip_address + "/" + execute_path,
+			{"name" => command, "parameters" => parameters},
+			{ :method => Communications.HTTP_REQUEST_METHOD_POST, :headers => 
+					{ "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON, "Accept" => "application/json" }
+			}, callback);
+	}
+	
+	function inProgress(message) {
+		progressBar = new Ui.ProgressBar(message, null);
+		Ui.pushView(progressBar, new RicohShutterProgressBarDelegate(self), Ui.SLIDE_DOWN);
+	}
+	
+	function progressDone() {
+		if (progressBar != null) {
+			progressBar = null;
+			try {
+				Ui.popView(Ui.SLIDE_UP);
+			} catch(ex) { }
+		}
+		Ui.requestUpdate();
+	}	
+	
+	function debug(methodName, responseCode, data) {
+		System.println(methodName + ": " + responseCode);
+		System.println(data);
+	}
+	
+	/*
 	function onTap(clickEvent) {
 		System.println("takePicture");
 		executeCommand("camera.takePicture", {}, method(:onTakePicture));
@@ -80,7 +212,7 @@ class RicohShutterInputDelegate extends Ui.InputDelegate {
 	
 	function checkStatus(id) {
 		System.println("checkStatus");
-		Communications.makeJsonRequest(ip_address + "/" + status_path,
+		Communications.makeWebRequest(ip_address + "/" + status_path,
 			{"id" => id},
 			{ :method => Communications.HTTP_REQUEST_METHOD_POST, :headers => 
 					{ "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON, "Accept" => "application/json" }
@@ -88,7 +220,7 @@ class RicohShutterInputDelegate extends Ui.InputDelegate {
 	}
 
 	function executeCommand(command, parameters, callback) {
-		Communications.makeJsonRequest(ip_address + "/" + execute_path,
+		Communications.makeWebRequest(ip_address + "/" + execute_path,
 			{"name" => command, "parameters" => parameters},
 			{ :method => Communications.HTTP_REQUEST_METHOD_POST, :headers => 
 					{ "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON, "Accept" => "application/json" }
@@ -147,6 +279,7 @@ class RicohShutterInputDelegate extends Ui.InputDelegate {
 		}
 		Ui.requestUpdate();
 	}
+	*/
 }
 
 class RicohShutterProgressBarDelegate extends Ui.BehaviorDelegate {

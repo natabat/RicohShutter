@@ -1,6 +1,7 @@
 using Toybox.Application as App;
 
 class RicohShutterApp extends App.AppBase {
+	hidden var view;
 
     function initialize() {
         AppBase.initialize();
@@ -16,7 +17,8 @@ class RicohShutterApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new RicohShutterView(), new RicohShutterInputDelegate() ];
+    	view = new RicohShutterView();
+        return [ view, new RicohShutterInputDelegate(view.method(:onError)) ];
     }
 
 }

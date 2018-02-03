@@ -1,0 +1,3 @@
+<drawable-list id="ErrorSign" background="Gfx.COLOR_TRANSPARENT">
+	<shape type="circle" x="120" y="120" radius="100" color="Gfx.COLOR_BLACK" border_width="20" border_color="Gfx.COLOR_RED"/>
+</drawable-list>

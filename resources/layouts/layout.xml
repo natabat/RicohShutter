@@ -1,3 +1,2 @@
 <layout id="MainLayout">
-    <bitmap id="id_camera" x="center" y="center" filename="../drawables/camera-iris.png" />
 </layout>
